@@ -33,6 +33,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             maiconport/api-bootcamp-produto:latest
             maiconport/api-bootcamp-produto:${{github.run_number}}
